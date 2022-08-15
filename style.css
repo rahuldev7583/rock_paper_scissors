@@ -40,14 +40,23 @@ h1, h2{
   text-align: center;
 }
 @media (min-width: 768px){
-  #game{
-    margin-top: 4rem;
+  #game, #start{
+    margin-top: 0rem;
   }
   h1, h2{
-    font-size: 4rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
   }
   #score{
-    font-size: 6rem;
-    margin-top: 4rem;
+    font-size: 4rem;
+    margin-top: 0rem;
   }
+#game ul{
+    width: 55%;
+    padding-left: 25%;
+}
+ #game ul li img{
+   width: 90%;
+}
 }
