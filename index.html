@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
@@ -10,21 +10,37 @@
     <div id="game">
       <h1>Rock Paper Scissors</h1>
       <h2>You</h2>
-      <ul> 
-      <li> 
-      <img src="images/rock.png" alt="rock-img" onclick="clicked('rock')"> </li>
-      <li> 
-      <img src="images/paper.png" alt="paper-img" onclick="clicked('paper')"> </li>
-      <li> 
-      <img src="images/scissors.png" alt="scissors-img" onclick="clicked('scissors')"> </li> </ul>
+      <ul>
+        <li>
+          <img src="images/rock.png" alt="rock-img" onclick="clicked('rock')" />
+        </li>
+        <li>
+          <img
+            src="images/paper.png"
+            alt="paper-img"
+            onclick="clicked('paper')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/scissors.png"
+            alt="scissors-img"
+            onclick="clicked('scissors')"
+          />
+        </li>
+      </ul>
       <h2>Computer</h2>
-      <ul> 
-      <li id="rock" onclick="cClicked('rock')">
-      <img  src="images/rock.png" alt="rock-img"> </li>
-      <li id="paper" onclick="cClicked('paper')"> 
-      <img  src="images/paper.png" alt="paper-img"> </li>
-      <li id="scissors" onclick="cClicked('scissors')"> 
-      <img src="images/scissors.png" alt="scissors-img"> </li> </ul>
+      <ul>
+        <li id="rock" onclick="cClicked('rock')">
+          <img src="images/rock.png" alt="rock-img" />
+        </li>
+        <li id="paper" onclick="cClicked('paper')">
+          <img src="images/paper.png" alt="paper-img" />
+        </li>
+        <li id="scissors" onclick="cClicked('scissors')">
+          <img src="images/scissors.png" alt="scissors-img" />
+        </li>
+      </ul>
       <h1 id="score"></h1>
     </div>
     <script src="script.js"></script>

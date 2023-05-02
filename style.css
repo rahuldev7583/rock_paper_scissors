@@ -1,4 +1,4 @@
-#start{
+#start {
   display: none;
   font-size: 2rem;
   background-color: #505d62;
@@ -9,56 +9,59 @@
   top: 20%;
   left: 33%;
 }
-#start:hover{
+#start:hover {
   background-color: white;
   color: #505d62;
 }
-#game{
+#game {
   display: inline-block;
   color: #505d62;
 }
-#game ul{
+#game ul {
   list-style-type: none;
   display: flex;
 }
-#game ul li{
+#game ul li {
   border: 2px solid #505d62;
   border-radius: 10px;
   margin: 0.5rem 1rem 0.5rem 0.5rem;
   padding: 0.5rem;
 }
-#game ul li:hover{
+#game ul li:hover {
   background-color: #505d62;
 }
-.img{
+.img {
   background-color: #505d62;
 }
-#game ul li img{
+#game ul li img {
   width: 110%;
 }
-h1, h2{
+h1,
+h2 {
   text-align: center;
 }
-@media (min-width: 768px){
-  #game, #start{
+@media (min-width: 768px) {
+  #game,
+  #start {
     margin-top: 0rem;
   }
-  h1, h2{
+  h1,
+  h2 {
     font-size: 2rem;
     margin: 0;
     padding: 0;
   }
-  #score{
+  #score {
     font-size: 4rem;
     margin-top: 0rem;
   }
-#game ul{
+  #game ul {
     width: 55%;
     padding-left: 25%;
-}
- #game ul li img{
-   width: 70%;
-   cursor: pointer;
-   margin-left: 1rem;
-}
+  }
+  #game ul li img {
+    width: 70%;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
 }
